@@ -173,33 +173,7 @@
    Download SecureVault.exe
            </a>
 
-            <p class="download-note">Compatible with Windows. Requires Python dependencies (see requirements_supabase.txt).</p>
-
-            <!-- Visible fallback for users who see Google sign-in / popup issues -->
-            <div style="margin-top:0.75rem; font-size:0.95rem; color:#333;">
-                <strong>If you see a Google sign-in error:</strong>
-                <ul style="margin:0.25rem 0 0.5rem 1.25rem;">
-                    <li>Right-click the download button and choose "Save link as..." to save the file directly.</li>
-                    <li>Or open this link in a full browser (Chrome, Edge, Firefox):
-                        <a id="download-fallback-link" href="/serve_download.php?file=SecureVault.exe" target="_blank">Direct download link</a>
-                    </li>
-                </ul>
-                <small style="color:#666;">Note: some embedded or outdated browsers (or webviews) are blocked by Google for security — use your regular desktop browser if possible.</small>
-            </div>
-
-            <!-- Chrome-specific troubleshooting for "File wasn't available on site" -->
-            <div style="margin-top:0.75rem; font-size:0.95rem; color:#333; background:#fff6f0; padding:0.6rem; border-radius:6px; border:1px solid #ffd6c2;">
-                <strong>Troubleshooting (Chrome):</strong>
-                <p style="margin:0.35rem 0 0.25rem 0;">If Chrome shows "File wasn't available on site" in the downloads menu, that usually means the browser couldn't fetch the binary from the remote host (Drive, server, or redirect). Try the steps below:</p>
-                <ol style="margin-left:1.25rem;">
-                    <li>Right-click the <em>Download</em> button and choose <strong>Save link as...</strong> to download manually.</li>
-                    <li>Open the <a href="/serve_download.php?file=SecureVault.exe" target="_blank">Direct download link</a> in a full browser tab (not inside an embedded viewer) and follow the prompts.</li>
-                    <li>Try a different browser (Edge or Firefox) — some Chromium-based webviews or older browser versions are blocked by Google or block cross-origin redirects.</li>
-                    <li>If you host the file yourself, make sure the file URL returns the binary with proper headers (200 OK, correct Content-Type) and not an HTML login/redirect page.</li>
-                </ol>
-                <p style="margin:0.25rem 0 0 0; color:#666;">Long-term: host the exe on GitHub Releases, S3/CDN, or your web server for the most reliable downloads. I can help set that up.</p>
-            </div>
-        </div>
+           
     </section>
 
     <!-- Terms and Conditions -->
@@ -247,5 +221,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
